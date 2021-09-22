@@ -56,3 +56,19 @@ var a = math.divideNumbers(4, 2);
 // this will compute 4 / 2 = 2
 console.log("The answer is: " + a);
 ```
+
+### Square Root
+
+``` javascript
+var a = math.squareRoot(9);
+// this will compute the square root of 9 = 3
+console.log("The answer is: " + a);
+```
+
+### Exponent
+
+``` javascript
+var a = math.exponentNumber(4,3);
+// this will compute 4^3 = 64
+console.log("The answer is: " + a);
+```
