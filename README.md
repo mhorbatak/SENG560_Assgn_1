@@ -40,3 +40,19 @@ var a = math.subractNumbers(4, 2);
 // this will compute 4 - 2 = 2
 console.log("The answer is: " + a);
 ```
+
+### Multiplication
+
+``` javascript
+var a = math.multiplyNumbers(10, 6);
+// this will compute 10 * 6 = 60
+console.log("The answer is: " + a);
+```
+
+### Division
+
+``` javascript
+var a = math.divideNumbers(4, 2);
+// this will compute 4 / 2 = 2
+console.log("The answer is: " + a);
+```

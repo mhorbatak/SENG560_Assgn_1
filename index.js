@@ -1,9 +1,7 @@
 console.log("SENG 560 Programming Assignment 1");
 
-/* Unit test for addNumbers()
-For complete unit testing, see app.test.js 
-var a = addNumbers(1, -2);
-console.log(a);
+/* Unit testings
+For complete unit testing, /test/see app.test.js 
 */
 
 const addNumbers = (a, b) => {
@@ -21,11 +19,7 @@ const addNumbers = (a, b) => {
 exports.addNumbers = addNumbers;
 /* subtractNumbers() */
 
-/* Unit test for subractNumbers()
-For complete unit testing, see app.test.js 
-var a = subtractNumbers(1, -2);
-console.log(a);
-*/
+
 
 const subtractNumbers = (a, b) =>{
  try {
@@ -41,3 +35,63 @@ const subtractNumbers = (a, b) =>{
 
 exports.subtractNumbers = subtractNumbers;
 /* subractNumbers() */
+
+const multiplyNumbers = (a, b) =>{
+    try {
+       if (isNaN(a) || isNaN(b)) {
+           return 'Please provide values and/or valid numbers';
+         } else {
+             return a * b;
+         }
+       } catch (e) {
+           return "unexpected error occured";
+       }
+   }
+   
+   exports.multiplyNumbers = multiplyNumbers;
+   /* multiplyNumbers() */
+
+   const divideNumbers = (a, b) =>{
+    try {
+       if (isNaN(a) || isNaN(b)) {
+           return 'Please provide values and/or valid numbers';
+         } else {
+             return a / b;
+         }
+       } catch (e) {
+           return "unexpected error occured";
+       }
+   }
+   
+   exports.divideNumbers = divideNumbers;
+   /* divideNumbers() */
+
+   const squareRoot = (a) =>{
+    try {
+       if (isNaN(a)) {
+           return 'Please provide values and/or valid numbers';
+         } else {
+             return Math.sqrt(a);
+         }
+       } catch (e) {
+           return "unexpected error occured";
+       }
+   }
+   
+   exports.squareRoot = squareRoot;
+   /* squareRoot() */
+
+const exponentNumber = (a, b) =>{
+    try {
+       if (isNaN(a) || isNaN(b)) {
+           return 'Please provide values and/or valid numbers';
+         } else {
+             return Math.pow(a, b);
+         }
+       } catch (e) {
+           return "unexpected error occured";
+       }
+   }
+   
+   exports.exponentNumber  = exponentNumber ;
+   /* exponentNumber () */
