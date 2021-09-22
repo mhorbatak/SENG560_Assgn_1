@@ -1,0 +1,23 @@
+{
+  "name": "seng560_assgn_1",
+  "version": "1.0.4",
+  "description": "SENG 560 Programming Assignment 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhorbatak/SENG560_Assgn_1.git"
+  },
+  "author": "Mike Horbatak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhorbatak/SENG560_Assgn_1/issues"
+  },
+  "homepage": "https://github.com/mhorbatak/SENG560_Assgn_1#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
+}
