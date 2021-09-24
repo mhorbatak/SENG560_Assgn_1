@@ -66,6 +66,10 @@ describe('index.js tests', () => {
                 const result = math.divideNumbers(10, 2);
                 expect(result).to.equal(5);
             });
+            it('should equal 0', () => {
+                const result = math.divideNumbers(0, 3);
+                expect(result).to.equal(0);
+            });
             it('should equal 0.3333333333333333', () => {
                 const result = math.divideNumbers(10, 30);
                 expect(result).to.equal(0.3333333333333333);
