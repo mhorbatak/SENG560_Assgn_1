@@ -72,3 +72,20 @@ var a = math.exponentNumber(4,3);
 // this will compute 4^3 = 64
 console.log("The answer is: " + a);
 ```
+
+### Number Conversion
+
+``` javascript
+var a = math.numberConvert(1100100, 2, 10);
+// this will covert 1100100 (binary (base:2)) to 100(int (base:10))
+/*
+math.numberConvert(a,b,c);
+a = the number you want to convert - will accept string and int values
+b = the base of the number (a) being converted - e.g. 2(binary), 8(octal), 10(int), 16(hex)
+c = the base the number/string will be converted to - e.g. 2(binary), 8(octal), 10(int), 16(hex)
+*/
+console.log("The answer is: " + a);
+```
+
+## Unit Testing
+Mocha and Chai was used to unit test this library. Unit testing scripts can be found in the test directory. 
