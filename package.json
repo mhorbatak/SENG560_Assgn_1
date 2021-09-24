@@ -1,6 +1,6 @@
 {
   "name": "seng560_assgn_1",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "SENG 560 Programming Assignment 1",
   "main": "index.js",
   "scripts": {

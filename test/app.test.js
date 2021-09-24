@@ -125,6 +125,18 @@ describe('index.js tests', () => {
                 const result = math.numberConvert(100, 10, 2);
                 expect(result).to.equal('1100100');
             });
+            it('should equal 100', () => {
+                const result = math.numberConvert(1100100, 2, 10);
+                expect(result).to.equal(100);
+            });
+            it('should equal 100', () => {
+                const result = math.numberConvert(144, 8, 10);
+                expect(result).to.equal(100);
+            });
+            it('should equal 12', () => {
+                const result = math.numberConvert('0A', 16, 8);
+                expect(result).to.equal('12');
+            });
             
         });
 
