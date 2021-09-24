@@ -1,7 +1,7 @@
 console.log("SENG 560 Programming Assignment 1");
 
 /* Unit testings
-For complete unit testing, /test/see app.test.js 
+For complete unit testing, see app.test.js 
 */
 
 const addNumbers = (a, b) => {
