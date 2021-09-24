@@ -51,7 +51,7 @@ const multiplyNumbers = (a, b) =>{
    exports.multiplyNumbers = multiplyNumbers;
    /* multiplyNumbers() */
 
-   const divideNumbers = (a, b) =>{
+const divideNumbers = (a, b) =>{
     try {
        if (isNaN(a) || isNaN(b)) {
            return 'Please provide values and/or valid numbers';
@@ -66,7 +66,7 @@ const multiplyNumbers = (a, b) =>{
    exports.divideNumbers = divideNumbers;
    /* divideNumbers() */
 
-   const squareRoot = (a) =>{
+const squareRoot = (a) =>{
     try {
        if (isNaN(a)) {
            return 'Please provide values and/or valid numbers';
@@ -96,7 +96,7 @@ const exponentNumber = (a, b) =>{
    exports.exponentNumber  = exponentNumber ;
    /* exponentNumber () */
 
-   const numberConvert = (a, b, c) => {
+const numberConvert = (a, b, c) => {
    try {
        if(c == 10){
         return parseInt(a,b);
