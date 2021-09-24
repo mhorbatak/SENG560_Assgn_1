@@ -95,4 +95,19 @@ const exponentNumber = (a, b) =>{
    
    exports.exponentNumber  = exponentNumber ;
    /* exponentNumber () */
-   
+
+   const numberConvert = (a, b, c) => {
+   try {
+       if(typeof a === 'string'){
+       a = parseInt(a, b);
+       } 
+      var x =  a.toString(c);
+      return x.toUpperCase();
+       
+   } catch (e) {
+    return "unexpected error occured";
+   }
+
+   }
+
+   exports.numberConvert = numberConvert;

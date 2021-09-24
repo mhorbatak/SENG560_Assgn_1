@@ -112,5 +112,21 @@ describe('index.js tests', () => {
             });
         });
 
+        describe('math.numberConvert() Test', () => {
+            it('should equal A', () => {
+                const result = math.numberConvert(10, 10, 16);
+                expect(result).to.equal('A');
+            });
+            it('should equal 14', () => {
+                const result = math.numberConvert(12, 10, 8);
+                expect(result).to.equal('14');
+            });
+            it('should equal 1100100', () => {
+                const result = math.numberConvert(100, 10, 2);
+                expect(result).to.equal('1100100');
+            });
+            
+        });
+
     //end of unit testing
 });
