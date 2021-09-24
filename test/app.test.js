@@ -6,13 +6,21 @@ describe('index.js tests', () => {
 
     /*  Unit tests for addNumbers() */
     describe('math.addNumbers() Test', () => {
-        it('should equal 2', () => {
-            const result = math.addNumbers(1, 1);
-            expect(result).to.equal(2);
+        it('should equal 42', () => {
+            const result = math.addNumbers(051, 1);
+            expect(result).to.equal(42);
         });
-        it('should equal 4', () => {
-            const result = math.addNumbers(2, 2);
-            expect(result).to.equal(4);
+        it('should equal 8', () => {
+            const result = math.addNumbers(0b111, 1);
+            expect(result).to.equal(8);
+        });
+        it('should equal 3', () => {
+            const result = math.addNumbers(01, 02);
+            expect(result).to.equal(3);
+        });
+        it('should equal 4.55', () => {
+            const result = math.addNumbers(2, 2.55);
+            expect(result).to.equal(4.55);
         });
         it('should throw error', () => {
             const result = math.addNumbers();

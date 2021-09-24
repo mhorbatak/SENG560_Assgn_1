@@ -95,3 +95,4 @@ const exponentNumber = (a, b) =>{
    
    exports.exponentNumber  = exponentNumber ;
    /* exponentNumber () */
+   
