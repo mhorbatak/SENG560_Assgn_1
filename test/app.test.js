@@ -137,6 +137,10 @@ describe('index.js tests', () => {
                 const result = math.numberConvert('0A', 16, 8);
                 expect(result).to.equal('12');
             });
+            it('should equal 13', () => {
+                const result = math.numberConvert('0D', 16, 10);
+                expect(result).to.equal(13);
+            });
             
         });
 
