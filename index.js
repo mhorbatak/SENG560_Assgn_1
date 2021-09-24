@@ -1,7 +1,7 @@
 console.log("SENG 560 Programming Assignment 1");
 
 /* Unit testings
-For complete unit testing, see app.test.js 
+For complete unit testing, /test/see app.test.js 
 */
 
 const addNumbers = (a, b) => {
@@ -99,7 +99,7 @@ const exponentNumber = (a, b) =>{
    const numberConvert = (a, b, c) => {
    try {
        if(c == 10){
-        return parseInt(a, b);
+        return parseInt(a,)
        }
        else if(typeof a === 'string'){
        a = parseInt(a, b);
