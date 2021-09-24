@@ -99,7 +99,7 @@ const exponentNumber = (a, b) =>{
    const numberConvert = (a, b, c) => {
    try {
        if(c == 10){
-        return parseInt(a,)
+        return parseInt(a,b);
        }
        else if(typeof a === 'string'){
        a = parseInt(a, b);
