@@ -89,3 +89,6 @@ console.log("The answer is: " + a);
 
 ## Unit Testing
 Mocha and Chai was used to unit test this library. Unit testing scripts can be found in the test directory. 
+
+## Reuse Measures
+This library is designed to be easily deployed and reused in multiple projects through the use of npm. By using the npm command above, this project will be imported and ready for use in any project that is using NodeJS.
